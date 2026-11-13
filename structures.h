@@ -13,6 +13,7 @@ typedef struct Stock
 
 typedef struct Node
 {
+    //figure out how bst tree works, how to implement optimally
     Stock data;
     struct Node *left;
     struct Node *right;

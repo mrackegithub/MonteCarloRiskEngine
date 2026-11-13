@@ -7,11 +7,9 @@ int main(void){
         perror("Error opening file");
         return 1;
     }
-    double n1; double n2;
-    for(int i = 0; i < SIMS;i++){//simulating box muller to confirm it works
-        box_muller_transform(&n1,&n2);
-        fprintf(output,"%lf %lf ",n1,n2);
-    }
+    
+
+    
     fclose(output);
     
     
