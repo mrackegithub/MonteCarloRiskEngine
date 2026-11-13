@@ -1,0 +1,6 @@
+.venv/
+*.exe
+*.o
+output.txt
+__pycache__/
+

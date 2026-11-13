@@ -5,6 +5,8 @@
 #include <string.h>
 #include <math.h>
 #include <time.h>
+#include "structures.h"
 void box_muller_transform(double *z1,double *z2 );
+double brownian_step(double volatility, double drift, double timestep,double Z, double initial);
 
 #endif
