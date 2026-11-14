@@ -7,7 +7,13 @@
 #include <math.h>
 #include <time.h>
 #include "structures.h"
+
+//mathemathical functions
 void box_muller_transform(double *z1,double *z2 );
 double brownian_step(double volatility, double drift, double timestep,double Z, double initial);
+
+//file handling
+Stock* read_file(FILE *file);
+Stock read_stock(FILE *fp);
 
 #endif

@@ -3,10 +3,11 @@
 
 typedef struct Stock
 {
-    char name[20];
+    char ticker[20];
+    double spot_price;
+    double drift_rate;
     double volatility;
-    double initial_price;
-    double drift;
+    int simulation_days;
     double new_price;
 } Stock;
 
