@@ -13,7 +13,7 @@ void box_muller_transform(double *z1,double *z2 );
 double brownian_step(double volatility, double drift, double timestep,double Z, double initial);
 
 //file handling
-Stock* read_file(FILE *file);
-Stock read_stock(FILE *fp);
+void read_file(FILE *file);
+int read_stock(char *line, Stock* out);
 
 #endif
