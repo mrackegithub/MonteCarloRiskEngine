@@ -1,6 +1,17 @@
 #ifndef strukt
 #define strukt
+typedef struct Analytics{
+    int simulated;
+    double average;
+    double std;
+    double skewness;
+    double Kurtosis;
+    double var95;
+    double var99;
+    double cvar95;
+    
 
+} Analytics;
 typedef struct Stock
 {
     char ticker[20];

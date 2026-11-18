@@ -70,7 +70,7 @@ int read_file(FILE *file,Node** root)
         Stock stock;
         if (read_stock(line, &stock) == 0)
         {
-            printf("Failed to read line: %d, skipping it.\n", total_lines);
+            printf("Warning: Skipping invalid line %d\n", total_lines);
             total_lines++;
         }
         else

@@ -19,5 +19,10 @@ int read_stock(char *line, Stock *out);
 
 //search tree
 int add_node(Node **root, Stock data_stock);
+void print_tree(Node *root);
+void free_tree(Node *root);
+
+//helper
+void clear_input();
 
 #endif
